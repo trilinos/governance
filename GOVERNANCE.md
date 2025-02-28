@@ -1,10 +1,10 @@
 # Trilinos Roles
-- Technical Steering Committee is comprised of the Organizational and
-  Strategic Leadership.
-  - *Organizational Leadership* is comprised of Trilinos Product Owner,
-    DevOps Lead, Core Area Lead, Solvers Area Lead, and Discretization
+- *Technical Steering Committee* is comprised of three members, who 
+   have Trilinos-wide decision responsibilites.
+- *Organizational Leadership* is comprised of Trilinos Product Owner,
+    DevSecOps Lead, Core Area Lead, Solvers Area Lead, and Discretization
     and Analysis Area Lead.
-  - *Strategic Leadership* is comprised of Trilinos developers who have
+- *Strategic Leadership* is comprised of Trilinos developers who have
     extensive experience with Trilinos and knowledge of research directions
     of interest to both developers and stakeholders.
 - *Package Owners* are Team Maintainers of individual Trilinos packages.
@@ -17,33 +17,38 @@
 
 ### Role
 
+- Repsonsible for Trilinos-wide decisions
 - Determine project wide rules
 - Decide on package inclusion
 - Form short-term committees to address focused tasks
+
+### Current Membership
+- Curtis Ober – Trilinos Product Owner, Sandia Trilinos Operational Lead, and Trilinos Developer
+- Christian Glusa – Sandia Trilinos Strategic Lead, and Developer
+- Jim Willenbring – Sandia Representative to the HPSF Technical Advisory Committee (TAC), Developer, and former Trilinos Framework Lead
 
 # Operational Leadership
 
 ### Role
 
 Operational Leadership will maintain day-to-day operations, interaction
-with stakeholders, and plan Trilinos development over the next two years.
+with stakeholders, and help plan Trilinos development over the next two years.
 Responsibilities include but limited to
 
-- Maintain DevOps Pipeline (CI/CD; hardware)
+- Maintain DevSecOps Pipeline (CI/CD; hardware)
 - Coordinate package development with stakeholder requests
 - Promote software quality and security
 - Encourage package development through the Trilinos lifecycle to improve
   production readiness and credibility
-- Control who has merge privileges
 - Support Trilinos community
   - Website, wikis, annual meetings, tutorials, etc.
 
-### Current Roster
+### Current Members
 
-- Curtis Ober (Trilinos Product Owner) -- GitHub handle: [ccober6](https://github.com/ccober6) 
-- Sam Browne (DevOps Lead) -- GitHub handle: [sebrowne](https://github.com/sebrowne) 
+- Curtis Ober (Trilinos Product Owner; Lead) -- GitHub handle: [ccober6](https://github.com/ccober6) 
+- Sam Browne (DevSecOps Lead) -- GitHub handle: [sebrowne](https://github.com/sebrowne) 
 - Roger Pawlowski (Core Area Lead) -- GitHub handle: [rppawlo](https://github.com/rppawlo) 
-- Christian Glusa (Solvers Area Lead) -- GitHub handle: [cgcgcg](https://github.com/cgcgcg) 
+- Jonathan Hu (Solvers Area Lead) -- GitHub handle: [jhux2](https://github.com/jhux2) 
 - Mauro Perego (Discretization and Analysis Area Lead) -- GitHub handle: [mperego](https://github.com/mperego) 
 
 # Strategic Leadership
@@ -61,9 +66,9 @@ needs over the next five years.  Responsibilities include but not limited to
 - Be Trilinos champions at SC, vendors, labs, application teams, and other frameworks 
 - Prep/Train developers on latest technologies
 
-### Current Roster
+### Current Members
 
-- Mike Heroux -- GitHub handle: [maherou](https://github.com/maherou)
+- Christian Glusa (Lead) -- GitHub handle: [cgcgcg](https://github.com/cgcgcg)
 - Eric Phipps -- GitHub handle: [etphipp](https://github.com/etphipp) 
 - Siva Rajamanickam -- GitHub handle: [srajama1](https://github.com/srajama1) 
 - Heidi Thornquist -- GitHub handle: [hkthorn](https://github.com/hkthorn) 
@@ -85,32 +90,28 @@ Responsibilities include:
   - Help gather and prioritize requirements from stakeholders.
   - Communicate these to the Area Leads
 - Product Owner will coordinate these interactions as a whole for the Trilinos project.
-- Improve and coordinate Strategic Planning
-  - Help develop plans/directions for Trilinos software product.
-  - Help develop prioritized list of stakeholder requests.
-  - Assist management in prioritizing internal funding decisions.
   - Monitor and track key stakeholder issues.
   - Work with Area Leads to chart new directions for Trilinos.
 - Stakeholders can and should still engage Area Leads individually. 
   However if a request/issue requires significant effort, the Product
   Owner should be included in the discussion.
-- Work with DevOps Lead to develop and improve Trilinos infrastructure
+- Work with DevSecOps Lead to develop and improve Trilinos infrastructure
   - Improve configuration, build and running with Trilinos.
   - Improve deployment and testing (e.g., incorporating stakeholder requirements)
   - Manage cross-Area changes to Trilinos that effect multiple packages
     (e.g., removal of UVM and Epetra)
 - Serve in the Operational Leadership and TSC.
 
-### Current Roster
+### Current Lead
 
 - Curtis Ober -- GitHub handle: [ccober6](https://github.com/ccober6) 
 
 
-# DevOps Lead
+# DevSecOps Lead
 
 ### Role
 
-Lead Trilinos DevOps team in daily operational duties and developing
+Lead Trilinos DevSecOps team in daily operational duties and developing
 strategic direction for infrastructure-related topics.  Responsibilities
 include:
 
@@ -120,10 +121,10 @@ include:
       infrastructure
     - Defines and sets development, test, release, update, and support processes
 - Organizes and maintains Trilinos release process
-- Leads DevOps team in performing associated tasks
+- Leads DevSecOps team in performing associated tasks
 - Serves in the Operational Leadership and TSC.
 
-### Current Roster
+### Current Lead
 
 - Sam Browne -- GitHub handle: [sebrowne](https://github.com/sebrowne) 
 
@@ -141,7 +142,7 @@ include:
 - Facilitates Core specific requests and inter-package interactions
 - Serve in the Operational Leadership and TSC.
 
-### Current Roster
+### Current Lead
 
 - Roger Pawlowski -- GitHub handle: [rppawlo](https://github.com/rppawlo) 
  
@@ -158,9 +159,9 @@ and nonlinear systems.  Responsibilities include:
 - Facilitates solver specific requests and inter-package interactions
 - Serve in the Operational Leadership and TSC.
 
-### Current Roster
+### Current Lead
 
-- Christian Glusa -- GitHub handle: [cgcgcg](https://github.com/cgcgcg) 
+- Jonathan Hu (Solvers Area Lead) -- GitHub handle: [jhux2](https://github.com/jhux2)
 
  
 # Discretization and Analysis Area Lead
